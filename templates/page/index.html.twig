@@ -1,0 +1,21 @@
+{% extends 'base.html.twig' %}
+
+{% block title %}Moviz
+{% endblock %}
+
+{% block body %}
+	<div class="row flex-lg-row-reverse align-items-center g-5 py-5">
+		<div class="col-10 col-sm-8 col-lg-6">
+			<img src="{{ asset('assets/images/logo-moviz.png')}}" height="150">
+		</div>
+		<div class="col-lg-6">
+			<h1 class="display-5 fw-bold text-body-emphasis lh-1 mb-3">Donnez votre avis sur vos films préférés</h1>
+		</h1>
+		<p class="lead">Notez et partagez votre opinion sur les derniers films. Découvrez des critiques, lisez les avis des autres cinéphiles et trouvez votre prochain coup de cœur cinéma grâce à notre communauté passionnée.</p>
+		<div class="d-grid gap-2 d-md-flex justify-content-md-start">
+			<button type="button" class="btn btn-primary btn-lg px-4 me-md-2">Donner une note</button>
+			<button type="button" class="btn btn-outline-secondary btn-lg px-4">Voir les avis</button>
+		</div>
+	</div>
+
+</div>{% endblock %}
